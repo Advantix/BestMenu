@@ -1,8 +1,8 @@
 var itemImgURL = "http://sandbox.bestmenu.com.au/images/item/";
 var defaultImgURL = "logo_miapps.png";
-var serviceAppURL = "http://sandbox.bestmenu.com.au/index.php/api/appconfig/Mw";
+var serviceAppURL = "http://sandbox.bestmenu.com.au/index.php/api/appconfig/MTIz";
 
-var store_id= 'Mw';
+var store_id= 'MTIz';
 var serviceURL = "http://sandbox.bestmenu.com.au/index.php/api/";
 
 var resDatavl = window.localStorage.getItem('RestInfoDet');//alert(resDatavl);
@@ -20,7 +20,7 @@ if(resDatavl!=null) {
 	}
 	
 	//alert(menuId+":"+restId);
-	var serviceMenuURL = "http://sandbox.bestmenu.com.au/index.php/api/catlist/Mw/"+restId+"/"+menuId;
+	var serviceMenuURL = "http://sandbox.bestmenu.com.au/index.php/api/catlist/MTIz/"+restId+"/"+menuId;
 }
 
 var dataAppConfigval = window.localStorage.getItem('configData');
