@@ -960,7 +960,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
 .ui-page-theme-a,
 .ui-page-theme-a .ui-panel-wrapper { /* my design */
 	/*background: 			#232323 {a-page-background-color};*/
-	background:url(../../../images/wood_background.jpg) center bottom repeat-x fixed;
+	background:url(../../../images/wood_background.png) center bottom repeat-x fixed;
 	border-color:	 		#bbb /*{a-page-border}*/;
 	color: 					#333 /*{a-page-color}*/;
 	text-shadow: 0 /*{a-page-shadow-x}*/ 1px /*{a-page-shadow-y}*/ 0 /*{a-page-shadow-radius}*/ 	#f3f3f3 /*{a-page-shadow-color}*/;
@@ -5437,7 +5437,7 @@ p.info_right{  /*display: block; margin:0; padding:0; float:left; text-align:lef
 	}
 	.menu-choose-wp { width:47%; height:156px; float:left; margin-right:30px; margin-bottom:24px; }
 	
-	a.arrival-time span, a.guset-no span{ font-size:16px; color:#ff3715; padding-top:0px; display:block;}
+	a.arrival-time span, a.guset-no span{ font-size:16px; color:#278A32; padding-top:0px; display:block;}
 
 	.drop_res{width:41%!important;}
 	.calen_tab {background: none repeat scroll 0 0 #FFFFFF;height: 74px; margin-left: 36px; width: 83.8%;}

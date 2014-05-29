@@ -161,7 +161,7 @@ function getAppConfig() {
 		data= window.localStorage.getItem('configData'); 
 		//window.localStorage.setItem('configData',JSON.stringify(data)); // store local storage		
 		if(data!==null) {	
-			var data = JSON.parse(data);
+			var data = JSON.parse(data);//alert(data.AppConfig.bg_image);
 			$("#bodyId").css("background-image", "url("+data.AppConfig.bg_image+")");
 			$("#bodyId").css("background-repeat", "repeat");
 			$("#bodyId").css("background-position", "top");
