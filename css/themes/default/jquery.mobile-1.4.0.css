@@ -4928,7 +4928,7 @@ width: 12em;
 #addressDiv .ui-btn { padding:0.2em 0.4em !important; margin:24px 0 11px 82px; background-color:#f85353;font-family: 'gothic',Arial, Helvetica, sans-serif /*{global-font-family}*/;  text-transform:uppercase; float:none; width:5em; color:#fff; font-size:.8em;}
 .menu_wrap{ background:none; margin-top:0px!important;}
 .menu-choose-wp {float: left;height: 89px; margin-bottom:28px!important; margin-right: 15px;width: 47%;}
-.imagineLogo img {margin: 0 !important;padding: 0;width: 70%!important;}
+.imagineLogo img {margin: 0 !important;padding: 0;width: 104%!important;}
 }
 @media (min-width: 24em) {
 	.calen_tab {background: none repeat scroll 0 0 #FFFFFF;height: 74px; margin-left: 36px;width: 77.8%!important;}
@@ -5042,7 +5042,7 @@ width: 12em;
    }
 .confirmation label{ display: block; width:15em; float:left; color:#000; font-size:14px; font-weight:bold;}
 p.info_right{  /*display: block; margin:0; padding:0; float:left; text-align:left*/float: left;font-size: 0.9em;margin: 0; padding: 0; text-align:left; width:13em; }
-.imagineLogo img {margin: 0 !important;padding: 0;width: 50%!important;}
+.imagineLogo img {margin: 0 !important;padding: 0;width: 76%!important;}
 
 	}
 
@@ -5253,7 +5253,7 @@ p.info_right{  /*display: block; margin:0; padding:0; float:left; text-align:lef
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
     margin-top:24px!important;
 }
-.imagineLogo img {margin: 0 !important;padding: 0;width: 40%!important;}
+.imagineLogo img {margin: 0 !important;padding: 0;width: 54%!important;}
 	}
 
 	
