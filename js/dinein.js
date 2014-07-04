@@ -401,8 +401,8 @@ function fn_DateCompare(DateA, DateB) {
 	$('#seating-button span').html('Select sitting');
 			
 	$('#booking_date').val(val);
-	$("#dropDateId").hide();
-	$("#dropHtmlDateId").show();
+	//$("#dropDateId").hide();
+	//$("#dropHtmlDateId").show();
 	
 	var booking_date = $('#booking_date').val();
 	dArr=booking_date.split('-');
@@ -426,11 +426,11 @@ function fn_DateCompare(DateA, DateB) {
   function showDateDrop(val) {
 	//alert(val);
 	if(val!="out") {
-		$("#dropDateId").show();
-		$("#dropHtmlDateId").hide();
+		//$("#dropDateId").show();
+		//$("#dropHtmlDateId").hide();
 	} else {
-		$("#dropDateId").hide();
-		$("#dropHtmlDateId").show();
+		//$("#dropDateId").hide();
+		//$("#dropHtmlDateId").show();
 	}
   }
   function tConvert (time) {

@@ -109,14 +109,20 @@
 				<div class="left_nav" onclick="dateChange('Prev')"><a href="#"><img src="images/left_nav.jpg" alt=""></a></div>
                 <div class="right_nav" onclick="dateChange('Next')"><a href="#"><img src="images/right_nav.jpg" alt=""></a></div>
                 
-                <div class="calen_tab"  id="dropDateId" style="display:none;">            
-				 <select id="dateDrop" name="dateDrop" onchange="setDateHidden(this.value)"></select>                 
-				</div>
-               
+                
+				
                 
 				<div class="calen_tab" onmouseover="showDateDrop('in');"   id="dropHtmlDateId">            
-				  <p style="font-size:26px; color:#000; font-family: 'gothic'; margin:0 0 0 0!important; padding:10px 0 0 0!important; text-align:center;" id='dateP'></p>
-				  <p style="font-size:16px; color:#ff3715; text-transform:uppercase; font-family: 'gothic'; margin:5px 0 0 0!important; padding:0!important; text-align:center;" id='dayP'></p>                
+				  <p style="font-size:26px; color:#000; font-family: 'gothic'; margin:0 0 0 0!important; padding:10px 0 0 0!important; text-align:center; display:none;" id='dateP'></p>
+				  <style>#dateDrop-button{height:40px !important; padding:5px 0px !important; width: 91%!important; margin-left:5px !important;}
+				  #dateDrop-button span{font-size: 17px;} 
+                  
+                  </style>
+				  <div class="calen_tab"  id="dropDateId" style="display:;">            
+				 <select id="dateDrop" name="dateDrop" onchange="setDateHidden(this.value)" data-mini="true"></select>  
+				 <p style="font-size:16px; color:#ff3715; text-transform:uppercase; font-family: 'gothic'; margin:5px 0 0 0!important; padding:0px 5px!important; text-align:center;" id='dayP'></p>                
+				</div>
+				
 				</div>
 				<div class="clearfix"></div>				
             
